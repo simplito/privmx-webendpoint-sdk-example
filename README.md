@@ -1,4 +1,4 @@
-# Endpoint Web Example
+# Web Endpoint Example
 
 Example usage of PrivMX Endpoint methods in JavaScript/TypeScript.
 
