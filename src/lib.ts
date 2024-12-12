@@ -14,7 +14,7 @@ export const env = {
    * Bridge URL is a link to Bridge instance that manages
    * all logic for Threads, Stores, Inboxes and Keys management
    */
-  BRIDGE_URL: "",
+  BRIDGE_URL: "http://localhost:9111",
 
   /**
    * User's Public key and userId must be first registered inside Privmx Bridge. Check README for more info.
