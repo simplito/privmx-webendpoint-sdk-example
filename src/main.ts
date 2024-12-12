@@ -30,7 +30,7 @@ async function connect() {
      */
     console.log("Initializing cloud endpoint");
     await Endpoint.connect({
-        privKey: "L3DuFB7vYMcb6Jc4SuNrUmGbZXrBWoJfUDRqf4aieMGXiESHP6BT",
+        privKey: "",
         bridgeUrl: env.BRIDGE_URL,
         solutionId: env.SOLUTION_ID,
     });
