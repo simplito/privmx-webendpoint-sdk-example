@@ -23,6 +23,12 @@ export async function runThread() {
         }),
         users: [{userId: env.USER_ID, pubKey: env.USER_PUBLIC_KEY}],
         managers: [{userId: env.USER_ID, pubKey: env.USER_PUBLIC_KEY}],
+        policies:{
+            update:"all",
+            item:{
+                listAll:"all"
+            }
+        }
     });
     console.log("New thread created");
 
@@ -61,7 +67,8 @@ export async function runThread() {
         data: serializeObject({
             text: "New message"
         }),
-        publicMeta:new TextEncoder().encode("text/plain")
+        publicMeta:new TextEncoder().encode("text/plain"),
+
     });
     console.log("Message sent" + msgId);
 
