@@ -23,21 +23,21 @@ Example usage of PrivMX Endpoint methods in JavaScript/TypeScript.
    ``` 
 4. Register user.
 
-   With the keys ready, register `userId` - public key pair in your Context. Don't forget to replace placeholder values
-   with the ones created earlier:
+   With the keys ready, register `userId` - public key pair in your Context.
+   Remember to replace placeholder values with the ones created earlier:
    ```shell
    ./cli.sh context/addUserToContext '{"contextId": "CONTEXT_ID", "userId":"USER_ID", "userPubKey":"USER_PUBLIC_KEY" }'
    ``` 
 
 ### Setup app
 
-1. Fill your env constants in `./lib.ts` file with variables created during the Bridge setup.
+1. Copy or rename `.env.example` to `.env` and fill with variables created during the Bridge setup.
 2. Run
    ```sh
    npm install 
    npm run dev
    ```
-3. Open app on path displayed in your console. 
+3. Open app on a path displayed in your console. 
 
 ## Usage
 
