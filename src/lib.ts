@@ -20,6 +20,7 @@ export const env = {
    * User's Public key and userId must be first registered inside Privmx Bridge. Check README for more info.
    */
   USER_PUBLIC_KEY: import.meta.env.VITE_USER_PUBLIC_KEY,
+  USER_PRIVATE_KEY: import.meta.env.VITE_USER_PRIVATE_KEY,
   USER_ID: import.meta.env.VITE_USER_ID,
 };
 
